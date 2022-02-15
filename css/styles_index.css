@@ -1,0 +1,21 @@
+@font-face { font-family: PokemonGB; src: url('../fonts/PokemonGb-RAeo.ttf'); } 
+      
+      h2{
+        font-family: PokemonGB;
+        text-align: center;
+        margin: 10px;
+    }
+    p{
+        font-family: PokemonGB;
+        font-size: small;
+    }
+
+    .card{
+        transition: transform .2s;
+    }
+    .card:hover{
+        transform: scale(1.03);
+    }
+    button{
+        font-family: PokemonGB;
+    }
